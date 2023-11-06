@@ -1,6 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include<stdio.h>
+#include<stdlib.h> 
+#include<time.h>
+
 // 카드 모양 정의
 enum Suit { SPADES, DIAMONDS, HEARTS, CLUBS };
 
@@ -19,3 +20,6 @@ int main() {
     int player_score = 0;
     int dealer_score = 0;
     int playAgain = 1;}
+
+    void blackjack(void);
+    void title(void);
